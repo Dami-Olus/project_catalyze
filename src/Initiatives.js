@@ -18,8 +18,8 @@ function Initiatives() {
   const [project, setProject] = useState(0);
 
   const changeProject = (index) => {
-    setProject(index)
-  }
+    setProject(index);
+  };
 
   return (
     <div className="">
@@ -42,7 +42,7 @@ function Initiatives() {
       </header>
 
       <div className="flex mt-20 space-x-5 px-48">
-        <div className="flex space-x-5">
+        <div className="hidden lg:flex space-x-5">
           <div className="left">
             <div className="space-y-5">
               <div
@@ -149,10 +149,7 @@ function Initiatives() {
 
       {/*Project Gallery*/}
       <div className="ml-32 mr-32">
-
-        
-
-        <div className="flex justify-evenly bg-[#efefef] mt-24 pt-10 pb-10">
+        <div className="flex flex-col lg:flex-row justify-evenly bg-[#efefef] mt-24 pt-10 pb-10">
           <img
             className="relative -top-24 mr-10"
             src={projects[project].image}
@@ -171,9 +168,7 @@ function Initiatives() {
 
             {/*Body */}
             <div>
-              <p className="mb-5">
-              {projects[project].summary}
-              </p>
+              <p className="mb-5">{projects[project].summary}</p>
               <ul className="mb-8">
                 <li>Proposed Capacity - 7.5kVA</li>
                 <li>Solution - Inverter+Battery+Solar Panels</li>
@@ -182,7 +177,9 @@ function Initiatives() {
             </div>
 
             <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10">
-             <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">Donate</a> 
+              <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
+                Donate
+              </a>
             </button>
 
             {/*Progress bar */}
@@ -199,7 +196,7 @@ function Initiatives() {
         <div className="flex justify-center">
           {projects.map((prj, index) => (
             <ProjectCard
-            image={prj.image}
+              image={prj.image}
               name={prj.name}
               status={prj.status}
               index={index}
@@ -210,7 +207,7 @@ function Initiatives() {
       </div>
 
       {/*Partners */}
-      <div className="flex justify-center mt-10 ml-32 mr-48">
+      <div className="flex flex-col lg:flex-row justify-center mt-10 ml-32 mr-48">
         <div className="bg-gray-200 px-10 py-10 space-y-10 mr-10">
           <h1 style={{ fontStyle: "bolder" }} className="text-2xl mt-10">
             Partners
@@ -251,7 +248,7 @@ function Initiatives() {
       </div>
 
       {/*FAQ */}
-      <div className="flex  ml-32 mt-16 mb-10">
+      <div className="flex flex-col lg:flex-row  ml-32 mt-16 mb-10">
         <div className="mr-10">
           <img src={installers_solarpanel} alt="" width={700} height={600} />
         </div>
