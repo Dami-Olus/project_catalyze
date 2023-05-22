@@ -12,27 +12,27 @@ const menu = [
 const faq = [
   {
     question: "How do I make my donation?",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: "Simply click on the Donate Now button on the page and you will be directed to our secure payment platform"
   },
   {
     question: "What currencies can I donate in",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: "You can donate in NGN or USD. Simply click on the Donate Now button on the page and you will be directed to our secure payment platform"
   },
   {
     question: "Can I donate cost of a component?",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: "Yes, you can donate for any component of your choice. Components and cost are outlined under Project. Simply click on the Donate Now button on the page and you will be directed to our secure payment platform"
   },
   {
     question: "How do I know which orphanage has a critical need for your solution?",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: "We work in partnership with ASOHON (Association of Orphanage and Homes Operators in Nigeria) to ensure that only credible and qualified homes are selected based on the criticality need."
   },
   {
     question: "How do I monitor progress of my chosen project?",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: " Update on each project is posted on our website real time to keep you posted"
   },
   {
     question: "Do you have a fund tracker?",
-    answer: "lorem ipsum dolor sit amet, consectetur"
+    answer: "Yes. Update on each project is posted on our website real time to keep you updated"
   }
 ]
 

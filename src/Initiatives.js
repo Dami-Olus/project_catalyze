@@ -142,7 +142,7 @@ function Initiatives() {
           />
 
           {/*Project details */}
-          <div className="">
+          <div className="px-8">
             {/*Header */}
             <div className="mb-8">
               <h1 className="text-4xl mb-2">{projects[project].name}</h1>
@@ -192,13 +192,13 @@ function Initiatives() {
 
       {/*Partners */}
       <div className="flex flex-col lg:flex-row justify-center mt-10">
-        <div className="bg-gray-200 px-10 py-10 space-y-10 mr-10">
+        <div className="bg-gray-200 px-10 py-10 space-y-10 flex flex-col items-center">
           <h1 style={{ fontStyle: "bolder" }} className="text-2xl mt-10">
             Partners
           </h1>
-          <img src={schneider} alt="" />
-          <img src={asohon} alt="" />
-          <img src={sdg} alt="" />
+          <img src={schneider} alt="" width={500}/>
+          <img src={asohon} alt="" width={500} />
+          <img src={sdg} alt="" width={500} />
         </div>
 
         {/*Goals*/}

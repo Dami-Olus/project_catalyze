@@ -7,11 +7,10 @@ function ProjectCard({name, status, index, onChangeProject, image}) {
   }
   
   return (
-    <div className='mt-5 mr-10 ' onClick={handleOnChangeProject}>
+    <div className='mt-5 mr-10 w-48 ' onClick={handleOnChangeProject}>
       <img src={image} alt="" width={150} />
-      <h1>Project Name:{name}</h1>
-      <p>Status:{status}</p>
-      <p>View Project</p>
+      <h1><strong>Project Name: </strong>{name}</h1>
+      <p><strong>Status: </strong>{status}</p>
     </div>
   )
 }
