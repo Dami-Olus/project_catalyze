@@ -22,26 +22,10 @@ function Initiatives() {
   };
 
   return (
-    <div className="">
-      <header>
-        <div className="bg-black h-[600px]">
-          {/* <Navbar /> */}
-          <div className="absolute top-72 left-48 text-white">
-            <h1 className="font-semibold text-6xl w-3/4">
-              Project Catalyze: Catalyzing the leaders of tomorrow for growth
-            </h1>
+    <div className="px-16">
+      
 
-            <button
-              onClick
-              className="py-5 px-10 bg-white text-black mt-20 font-bold text-xl rounded"
-            >
-              Support Us
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <div className="flex mt-20 space-x-5 px-48">
+      <div className="flex mt-20 space-x-5">
         <div className="hidden lg:flex space-x-5">
           <div className="left">
             <div className="space-y-5">
@@ -108,7 +92,7 @@ function Initiatives() {
             <h1 style={{ fontWeight: "bolder" }} className="text-4xl mb-16">
               CSR initiative to bring solar power to orphanages
             </h1>
-            <p className="text-lg mr-10">
+            <p className="text-lg">
               At Gridcrux, we believe that access to clean and sustainable
               energy is a basic human right.
               <br /> With this initiative, we will be installing
@@ -118,7 +102,7 @@ function Initiatives() {
           </div>
 
           {/* Image, quote and signature */}
-          <div className="flex">
+          <div className="flex flex-col lg:flex-row">
             <img
               src={bunmi}
               alt=""
@@ -148,7 +132,7 @@ function Initiatives() {
       </div>
 
       {/*Project Gallery*/}
-      <div className="ml-32 mr-32">
+      <div className="mx-auto">
         <div className="flex flex-col lg:flex-row justify-evenly bg-[#efefef] mt-24 pt-10 pb-10">
           <img
             className="relative -top-24 mr-10"
@@ -158,7 +142,7 @@ function Initiatives() {
           />
 
           {/*Project details */}
-          <div className="w-[600px]">
+          <div className="">
             {/*Header */}
             <div className="mb-8">
               <h1 className="text-4xl mb-2">{projects[project].name}</h1>
@@ -184,8 +168,8 @@ function Initiatives() {
 
             {/*Progress bar */}
             <div className="">
-              <div className="bg-[#385682] w-[500px] h-4 mb-5 rounded-full">
-                <div className="bg-red-400 w-[300px] h-4 top-0 rounded-full"></div>
+              <div className="bg-[#385682] w-1/2 h-4 mb-5 rounded-full">
+                <div className="bg-red-400 w-1/4 h-4 top-0 rounded-full"></div>
               </div>
               <p className="text-center text-red-400 text-3xl">76% completed</p>
             </div>
@@ -193,7 +177,7 @@ function Initiatives() {
         </div>
 
         {/*project list */}
-        <div className="flex justify-center">
+        <div className="flex justify-center overflow-x-auto">
           {projects.map((prj, index) => (
             <ProjectCard
               image={prj.image}
@@ -207,7 +191,7 @@ function Initiatives() {
       </div>
 
       {/*Partners */}
-      <div className="flex flex-col lg:flex-row justify-center mt-10 ml-32 mr-48">
+      <div className="flex flex-col lg:flex-row justify-center mt-10">
         <div className="bg-gray-200 px-10 py-10 space-y-10 mr-10">
           <h1 style={{ fontStyle: "bolder" }} className="text-2xl mt-10">
             Partners
@@ -218,7 +202,7 @@ function Initiatives() {
         </div>
 
         {/*Goals*/}
-        <div className="bg-[#89437e] text-white text-xl py-10 px-10 w-[700px]">
+        <div className="bg-[#89437e] text-white text-xl py-10 px-10">
           <h1 style={{ fontWeight: "bolder" }} className="text-5xl mb-10">
             Our mission
           </h1>
@@ -248,12 +232,12 @@ function Initiatives() {
       </div>
 
       {/*FAQ */}
-      <div className="flex flex-col lg:flex-row  ml-32 mt-16 mb-10">
+      <div className="flex flex-col lg:flex-row  mx-auto mt-16 mb-10">
         <div className="mr-10">
           <img src={installers_solarpanel} alt="" width={700} height={600} />
         </div>
-        <div className="w-[700px] mt-16">
-          <h1 style={{ fontWeight: "bolder" }} className="text-5xl w-72 mb-20">
+        <div className="mt-16">
+          <h1 style={{ fontWeight: "bolder" }} className="text-5xl mb-20">
             Questions People Ask
           </h1>
           {faq.map((faq) => (
