@@ -23,8 +23,6 @@ function Initiatives() {
 
   return (
     <div className="px-16">
-      
-
       <div className="flex mt-20 space-x-5">
         <div className="hidden lg:flex space-x-5">
           <div className="left">
@@ -167,11 +165,12 @@ function Initiatives() {
             </button>
 
             {/*Progress bar */}
-            <div className="">
-              <div className="bg-[#385682] w-1/2 h-4 mb-5 rounded-full">
-                <div className="bg-red-400 w-1/4 h-4 top-0 rounded-full"></div>
+            <div className="flex flex-col">
+              <div className="bg-[#385682] h-4 mb-5 rounded-full" style={{width: '400px'}}>
+                <div className="bg-red-400 h-4 top-0 rounded-full" style={{width: `${projects[project].progress*400}px`}}></div>
+                <div></div>
               </div>
-              <p className="text-center text-red-400 text-3xl">76% completed</p>
+              <p className="text-red-400 text-3xl">{projects[project].progress*100}% completed</p>
             </div>
           </div>
         </div>
@@ -196,7 +195,7 @@ function Initiatives() {
           <h1 style={{ fontStyle: "bolder" }} className="text-2xl mt-10">
             Partners
           </h1>
-          <img src={schneider} alt="" width={500}/>
+          <img src={schneider} alt="" width={500} />
           <img src={asohon} alt="" width={500} />
           <img src={sdg} alt="" width={500} />
         </div>

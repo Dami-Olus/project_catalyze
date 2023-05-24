@@ -38,6 +38,21 @@ const faq = [
 
 const projects = [
   {
+    image:orphanage5,
+    name: "Streams of Mercy and Love for Humanity Center",
+    location: 'Alagbado, Lagos',
+    numberOfChildren: '15+',
+    status: "Fully funded",
+    summary: "The Orphanage caters to children between the age of 2 - 13 years. The kids go to school i Alagbado with some living on site and others residing with caregivers under their supervision to maximise the live-in space onsite.",
+    details: {
+      solarPanel: "4 x 200W",
+      inverter: "1.5kVA",
+      battery: "2 x 150AH"
+    },
+    progress: 1,
+    Testimonial: 'We are very grateful for the support we have received from Gridcrux. We were having very serious issues with availability and electricity tarriff when they came on board. Like an answered prayer, Grid Crux called and it was taken care of at absolutely no cost to us. The kids are happy as they can watch TV, study at night and sleep well.'
+  },
+  {
     image:orphanage1,
     name: "Compassionate Orphanage",
     location: 'LASU-Isheri Expressway, Lagos',
@@ -49,7 +64,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: '50%'
+    progress: 0
   },
   {
     image:orphanage2,
@@ -63,7 +78,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: '50%'
+    progress: 0
   },
   {
     image:orphanage3,
@@ -77,7 +92,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: '50%'
+    progress: 0
   },
   {
     image:orphanage4,
@@ -91,7 +106,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: '50%'
+    progress: 0
   },
   {
     image:orphanage5,
@@ -105,7 +120,35 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: '50%'
+    progress: 0
+  },
+  {
+    image:orphanage5,
+    name: "Beautiful gate",
+    location: 'Iba Ojo,Lagos',
+    numberOfChildren: '15+',
+    status: "Accepting funding",
+    summary:"Beautiful Gate Orphanage Homes is a government approved home which takes care of the Orphans, Abandoned, Special need children (with disabilities ranging from Autism, Cerebral paulsy etc). A storey building located in Ojo, Lagos State, it provides shelter, education, nutrition and healthcare to about 30 children on site",
+    details: {
+      solarPanel: "4 x 200W",
+      inverter: "2.5kVA",
+      battery: "2 x 200AH"
+    },
+    progress: 0
+  },
+  {
+    image:orphanage5,
+    name: "Hope for All Africa",
+    location: 'Ajao Estate,Lagos',
+    numberOfChildren: '16',
+    status: "Accepting funding",
+    summary:"Hope for All Africa Orphanage is dedicated in the provision of care and protection for orphans and abused children. We minister about the physical, emotional and spiritual needs of the orphans and also counsel them; giving them hope and a future.They provide ccounselling sessions for the abused children under their care to help them psychologically, mentally, giving them hope and helping them overcome their fears. Also making them feel better about themselves. They also rehabilitate abused children.They go a step further to provide educational support and skill acquisition to enhance talent and developmental growth.",
+    details: {
+      solarPanel: "4 x 200W",
+      inverter: "1.5kVA",
+      battery: "2 x 150AH"
+    },
+    progress: 0
   },
 ]
 

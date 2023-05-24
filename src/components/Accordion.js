@@ -9,7 +9,7 @@ function Accordion({ question, answer }) {
 
 
   return (
-    <div className="w-auto mb-5 border-b-2 pb-5">
+    <div className="w-auto lg:w-[700px] mb-5 border-b-2 pb-5">
       <div className="flex justify-between text-xl">
         <div>
         <p>{question}</p>
