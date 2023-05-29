@@ -21,8 +21,12 @@ function Initiatives() {
     setProject(index);
   };
 
+  const barProgressStyle = {
+    width:`${projects[project].progress*100}%`,
+  };
+
   return (
-    <div className="px-16">
+    <div className="px-10">
       <div className="flex mt-20 space-x-5">
         <div className="hidden lg:flex space-x-5">
           <div className="left">
@@ -85,7 +89,7 @@ function Initiatives() {
         </div>
 
         {/* About the initiative */}
-        <div className="mt-20 px-10">
+        <div className="mt-20">
           <div className="mb-10">
             <h1 style={{ fontWeight: "bolder" }} className="text-4xl mb-16">
               CSR initiative to bring solar power to orphanages
@@ -140,7 +144,7 @@ function Initiatives() {
           />
 
           {/*Project details */}
-          <div className="px-8">
+          <div className="px-5">
             {/*Header */}
             <div className="mb-8">
               <h1 className="text-4xl mb-2">{projects[project].name}</h1>
@@ -166,11 +170,17 @@ function Initiatives() {
 
             {/*Progress bar */}
             <div className="flex flex-col">
-              <div className="bg-[#385682] h-4 mb-5 rounded-full" style={{width: '400px'}}>
-                <div className="bg-red-400 h-4 top-0 rounded-full" style={{width: `${projects[project].progress*400}px`}}></div>
+              <div id="bar" className="bg-[#385682] h-4 mb-5 rounded-full w-48 lg:w-96">
+                <div
+                  id="bar-progress"
+                  className="bg-red-400 h-4 top-0 rounded-full"
+                  style={barProgressStyle}
+                ></div>
                 <div></div>
               </div>
-              <p className="text-red-400 text-3xl">{projects[project].progress*100}% completed</p>
+              <p className="text-red-400 text-3xl">
+                {projects[project].progress * 100}% completed
+              </p>
             </div>
           </div>
         </div>
@@ -191,7 +201,7 @@ function Initiatives() {
 
       {/*Partners */}
       <div className="flex flex-col lg:flex-row justify-center mt-10">
-        <div className="bg-gray-200 px-10 py-10 space-y-10 flex flex-col items-center">
+        <div className="bg-gray-200 px-5 py-10 space-y-10 flex flex-col items-center">
           <h1 style={{ fontStyle: "bolder" }} className="text-2xl mt-10">
             Partners
           </h1>
@@ -201,7 +211,7 @@ function Initiatives() {
         </div>
 
         {/*Goals*/}
-        <div className="bg-[#89437e] text-white text-xl py-10 px-10">
+        <div className="bg-[#89437e] text-white text-xl py-10 px-5">
           <h1 style={{ fontWeight: "bolder" }} className="text-5xl mb-10">
             Our mission
           </h1>

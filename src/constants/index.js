@@ -64,7 +64,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage2,
@@ -78,7 +78,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage3,
@@ -92,7 +92,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage4,
@@ -106,7 +106,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage5,
@@ -120,7 +120,7 @@ const projects = [
       inverter: "8kVA",
       battery: "10 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage5,
@@ -134,7 +134,7 @@ const projects = [
       inverter: "2.5kVA",
       battery: "2 x 200AH"
     },
-    progress: 0
+    progress: 0.1
   },
   {
     image:orphanage5,
@@ -148,7 +148,7 @@ const projects = [
       inverter: "1.5kVA",
       battery: "2 x 150AH"
     },
-    progress: 0
+    progress: 0.1
   },
 ]
 
