@@ -22,7 +22,7 @@ function Initiatives() {
   };
 
   const barProgressStyle = {
-    width:`${projects[project].progress*100}%`,
+    width: `${projects[project].progress * 100}%`,
   };
 
   return (
@@ -162,15 +162,18 @@ function Initiatives() {
               </ul>
             </div>
 
-            <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10">
-              <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
+              <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10">
                 Donate
-              </a>
-            </button>
+              </button>
+            </a>
 
             {/*Progress bar */}
             <div className="flex flex-col">
-              <div id="bar" className="bg-[#385682] h-4 mb-5 rounded-full w-48 lg:w-96">
+              <div
+                id="bar"
+                className="bg-[#385682] h-4 mb-5 rounded-full w-48 lg:w-96"
+              >
                 <div
                   id="bar-progress"
                   className="bg-red-400 h-4 top-0 rounded-full"

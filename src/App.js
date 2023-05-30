@@ -4,7 +4,7 @@ function App() {
   return (
    <div className="overflow-hidden" >
     <header>
-        <div className="bg-black pt-72 py-auto">
+        <div className="bg-black pt-28">
           {/* <Navbar /> */}
           <div className="text-white text-center">
             <h1 className="font-semibold text-6xl">
