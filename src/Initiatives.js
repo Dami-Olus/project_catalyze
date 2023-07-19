@@ -162,9 +162,15 @@ function Initiatives() {
               </ul>
             </div>
 
+            <a href="https://flutterwave.com/donate/axqer1eegg5m">
+              <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10 mr-10">
+                Donate in NGN
+              </button>
+            </a>
+
             <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
               <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10">
-                Donate
+                Donate in USD
               </button>
             </a>
 
