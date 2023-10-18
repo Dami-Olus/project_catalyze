@@ -26,7 +26,7 @@ function Initiatives() {
   };
 
   return (
-    <div className="px-10">
+    <div className="px-32">
       <div className="flex mt-20 space-x-5">
         <div className="hidden lg:flex space-x-5">
           <div className="left">
@@ -164,15 +164,15 @@ function Initiatives() {
 
             <a href="https://flutterwave.com/donate/axqer1eegg5m">
               <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10 mr-10">
-                Donate in NGN
+                Donate
               </button>
             </a>
 
-            <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
+            {/* <a href="https://www.paypal.com/donate/?hosted_button_id=HB3WWAMRZMNU8">
               <button className="bg-red-400 text-white rounded-full w-48 p-3 mb-10">
                 Donate in USD
               </button>
-            </a>
+            </a> */}
 
             {/*Progress bar */}
             <div className="flex flex-col">
@@ -243,9 +243,11 @@ function Initiatives() {
               on so many people’s lives.
             </p>
           </ul>
+          <a href="https://flutterwave.com/donate/axqer1eegg5m">
           <button className="bg-white mt-16 py-5 px-10 text-[#89347e] rounded-[60px]">
             Donate Today!
           </button>
+          </a>
         </div>
       </div>
 
