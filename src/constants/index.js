@@ -127,7 +127,7 @@ const projects = [
     name: "Beautiful gate",
     location: 'Iba Ojo,Lagos',
     numberOfChildren: '15+',
-    status: "Accepting Donations",
+    status: "Accepting donations",
     summary:"Beautiful Gate Orphanage Homes is a government approved home which takes care of the Orphans, Abandoned, Special need children (with disabilities ranging from Autism, Cerebral paulsy etc). A storey building located in Ojo, Lagos State, it provides shelter, education, nutrition and healthcare to about 30 children on site",
     details: {
       solarPanel: "4 x 200W",
