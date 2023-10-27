@@ -156,7 +156,7 @@ function Initiatives() {
             <div>
               <p className="mb-5">{projects[project].summary}</p>
               <ul className="mb-8">
-                <li>Proposed Capacity - 7.5kVA</li>
+                <li>Proposed Capacity - {projects[project].details.inverter}</li>
                 <li>Solution - Inverter+Battery+Solar Panels</li>
                 <li>Capex - 2.5mNGN (3,400USD)</li>
               </ul>
